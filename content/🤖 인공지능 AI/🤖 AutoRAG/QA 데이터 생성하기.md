@@ -1,10 +1,11 @@
 ---
 created: 2025-05-03 08:14:51
-updated: 2025-05-03 11:33:30
+updated: 2025-05-03 11:35:45
 tags:
   - AutoRAG
   - RAG
   - RAG평가
+  - Evolving
 ---
 > 출처: https://docs.auto-rag.com/data_creation/qa_creation/qa_creation.html
 
@@ -795,3 +796,6 @@ result_en_qa = en_qa.batch_filter(
 
 두 가지 구현 방식(OpenAI와 LlamaIndex)을 제공하여 사용자가 자신의 요구 사항에 맞는 방법을 선택할 수 있도록 합니다. OpenAI 구현은 구조화된 출력을 통해 더 안정적인 결과를 제공할 수 있으며, LlamaIndex 구현은 다양한 LLM 모델을 지원합니다.
 
+## 연결 문서
+
+- [[LLM 기반 질의 생성 방법 - Evolving]]
