@@ -48,23 +48,23 @@ LLM은 다음과 같은 문제를 가지고 있다.
 
 > 출처: [풀파인튜닝, PEFT, 프롬프트 엔지니어링 및 RAG: 어떤 것이 나에게 적합할까?](https://www.linkedin.com/pulse/full-fine-tuning-peft-prompt-engineering-rag-which-one-right-you/)
 
-| 구축 및 유지보수 비용                                                                                                                                                                                                                | 구축의 복잡성                                                                                                                                                                                                                     |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](https://media.licdn.com/dms/image/v2/D5612AQGUCRtJTeNB_g/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1697537190416?e=1732147200&v=beta&t=rE5UX5wclCraErpbci1gI0khURAgzVX9wNrVuZcznx8) | ![](https://media.licdn.com/dms/image/v2/D5612AQGs_FG7vDrKfw/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1697537232617?e=1732147200&v=beta&t=79ZmPen8GepI14ZC21qA6D8qJusCfaZSZOkdbSNpjrQ) |
+| 구축 및 유지보수 비용                                  | 구축의 복잡성                                       |
+| --------------------------------------------- | --------------------------------------------- |
+| ![[07c58e342a6a3e16adfe2b76a4de7993_MD5.jpg]] | ![[b24ce2875ed236e4c5df37860748e90f_MD5.jpg]] |
 
 | 도메인별 용어 특화                                                                                                                                                                                                                  | 최신 정보로 답변                                                                                                                                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](https://media.licdn.com/dms/image/v2/D5612AQFSnk3p5umu4g/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1697537277066?e=1732147200&v=beta&t=IOafdtz953gGcNAAUmefK2cBEPIAsRj4B_vFXUj9AIg) | ![](https://media.licdn.com/dms/image/v2/D5612AQGh8i9tVJfgEQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1697537322758?e=1732147200&v=beta&t=Kcg5OZvaY1dHhFyWFhv60sUMTFiUYGacE7Ufrow9hfc) |
+| ![[d75d5c34a2ac828918c0600cae63de01_MD5.jpg]]| ![[a373ee0aa2d42ed68c2e80bd78cf7cbb_MD5.jpg]]|
 
 | 답변 과정의 투명성 및 해석 가능성                                                                                                                                                                                                         | 할루시네이션 감소                                                                                                                                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](https://media.licdn.com/dms/image/v2/D5612AQGYMU90AhIR1A/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1697537360701?e=1732147200&v=beta&t=vY9ouWUJIV-ADn4wL6jmM67KdgKjEidZ0wOS2x1Z7xE) | ![](https://media.licdn.com/dms/image/v2/D5612AQFlSFH3HmsG7g/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1697537397652?e=1732147200&v=beta&t=y5CHhlOf_WNsmXKbsXVYx6IqkoJ8AuO-dZlQQfDuuOk) |
+| ![[d599f81fb90da0649dcca37f3174a8c0_MD5.jpg]]| ![[ae39f56b6e21706c1b873424e581c5f8_MD5.jpg]]|
 
 ### 대표적인 RAG 방법론
 
 > 출처: https://arxiv.org/pdf/2312.10997v1
 
-![](https://i.imgur.com/dJlfReZ.png)
+![[b7a09e84e5b3dda5bd75d219dd6ea13b_MD5.png]]
 
 ### RAG의 패러다임 변화
 
@@ -81,7 +81,7 @@ LLM은 다음과 같은 문제를 가지고 있다.
 
 > 출처: https://python.langchain.com/v0.1/docs/use_cases/question_answering/
 
-![](https://python.langchain.com/v0.1/assets/images/rag_indexing-8160f90a90a33253d0154659cf7d453f.png)
+![[2aa138166518fc85d5c627f77a7859c6_MD5.png]]
 
 검색(Retrieve) - 읽기(Read) 프레임워크
 
@@ -94,7 +94,7 @@ LLM은 다음과 같은 문제를 가지고 있다.
 
 ### 실행 단계
 
-![](https://python.langchain.com/v0.1/assets/images/rag_retrieval_generation-1046a4668d6bb08786ef73c56d4f228a.png)
+![[be465f5a2d6e4af34fe109d620085a24_MD5.png]]
 
 1. **Retrieve**: Database 에서 질문(Query)에 답변하기 위한 정보 검색
 2. **Generation**: 검색된 정보를 문맥(Context)에 추가하여 답변 생성
@@ -112,7 +112,7 @@ LLM은 다음과 같은 문제를 가지고 있다.
 
 > 출처: https://arxiv.org/pdf/2407.21059v1
 
-![|600](https://i.imgur.com/YPQY7DL.png)
+![[e491a767eb68f84af8a7596cbb1d163b_MD5.png]]
 
 이전의 Naive RAG 가 가지고 있었던 한계를 극복하기 위한 다양한 고급 방법론
 
@@ -135,9 +135,9 @@ LLM은 다음과 같은 문제를 가지고 있다.
 2. **Summary, Entity 등 추가 정보 생성 후 Indexing**
 	- 추상적인 질문에는 Summary/Entity 활용
 	- 구체적인 질문에는 작은 Chunk 활용
-	- ![](https://i.imgur.com/VgsQRqV.png)
+	- ![[e6ba2a4c03698185926b15fd66516749_MD5.png]]
 3. **Hierarchical Structure**
-	- ![|300](https://i.imgur.com/DbL2ev7.png) 출처: https://arxiv.org/pdf/2407.21059v1
+	- ![[16bcab7ed517e2023343f9a4d41a35ae_MD5.png|400]] 출처: https://arxiv.org/pdf/2407.21059v1
 	- 계층적 구조로 검색 범위를 좁히고, 대신 검색 Depth를 늘린다.
 		- Multi-hop 질문의 경우 노드 간의 관계를 활용하여 정확도를 향상한다.
 		- Multi-hop Question란? 답변을 얻기 위해 여러 단계의 추론이나 정보 조합이 필요한 복잡한 질문 유형을 의미한다.
@@ -154,12 +154,12 @@ LLM은 다음과 같은 문제를 가지고 있다.
 - **Semantic Chunking**
 	- 의미상 유사한 단락을 기준으로 Chunking
 - **Small-to-Big**
-	- ![|200](https://i.imgur.com/Zz7OLix.png)
+	- ![[c9c62cb0fcf492ee9d2f980383e78b99_MD5.png|300]]
 	- 자식 ‒ 부모 Document 구조
 	- 작은 Chunk 단위를 임베딩 한 뒤, Retrieval 단계에서 더 큰 Chunk를 반환
 		- `ParentDocument Retriever`
 - **Sentence Window**
-	- ![|200](https://i.imgur.com/PuLsUDz.png)
+	- ![[d0f837393457b08bf1b5ee543a223526_MD5.png|300]]
 	- 단일문장 ‒ 단일문장+주변문장을저장
 	- 고정된 수(예를 들어 2~3문장)의 주변문장을 저장
 	- 이후 단일 문장에 Top-N 결과에 포함되면 주변 문장이 포함된 더 큰 Chunk를 반환
@@ -177,25 +177,25 @@ LLM은 다음과 같은 문제를 가지고 있다.
 		- 일반 질문을 SQL 쿼리문으로 변환
 		- 일반 질문을 검색에 용이한 구문으로 변환
 
-![|300](https://i.imgur.com/drYtgBK.png)
+![[3b24c5b85127a7dcc3cdc1d27fda10e1_MD5.png|300]]
 
 ### Retrieval
 
 - **Hybrid Search**
-	- ![|200](https://i.imgur.com/4UvV63n.png)
+	- ![[edbc18da9544029d167959a9533826b6_MD5.png|400]]
 	- 키워드검색 + 시맨틱검색
 	- 키워드 검색: 정확한 단어 매칭을 기반
 	- 시맨틱 검색: 의미와 문맥을 이해하여 관련 정보 검색
 
 - **Hypothetical Question**
-	- ![|400](https://i.imgur.com/EsjKZ00.png)
+	- ![[c33708e9bad4dd53026d8296d90f876b_MD5.png]]
 	- 문서의 내용을 질문 형태로 변환함으로써, 사용자 쿼리와의 의미적 매칭을 향상
 		1. 각 도큐먼트에 맞는 가상의 질문을 생성
 		2. 생성된 가상의 질문을 임베딩
 		3. 사용자쿼리와가상질문임베딩간의유사도계산
 
 - **HyDE(Hypothetical Document Embeddings)**
-	- ![|400](https://i.imgur.com/0KfYSpo.png)
+	- ![[3621e575cc4d324c8009a1b933775b5e_MD5.png]]
 	- 생성된 답변이 직접 쿼리보다 임베딩 공간에 더 가깝다는 가정에 기초
 		1. 사용자 쿼리에 대한 가상의 답변을 생성
 		2. 생성된 답변을 임베딩
@@ -206,16 +206,16 @@ LLM은 다음과 같은 문제를 가지고 있다.
 - **Reranker**
 	- 각 Query ‒ Document 쌍의 관련성을 평가
 	- Retriever가 대규모 문서 집합에서 빠르게 후보를 추출하는 데 초점을 맞추는 반면, Reranker는 이미 추출된 소수의 후보에 대해 더 정교한 분석을 수행
-	- Retriever와 Reranker 를 결합한 **Two Stage Retrieval** pipeline 주를 이룸. ![](https://i.imgur.com/AP3Ua4H.png)
+	- Retriever와 Reranker 를 결합한 **Two Stage Retrieval** pipeline 주를 이룸. ![[71999253628fb21af5c6c1580c5c6c6b_MD5.png]]
 
 - **Context Reorder**
 	- LLM은 입력 텍스트의 초반부와 후반부에 있는 정보를 더 잘 활용한다.
 	- 덜 관련된 문서는 목록의 중간에 배치하고, 관련성이 높은 문서는 시작과 끝에 배치한다.
-	- ![|300](https://i.imgur.com/QPCPjsW.png)
+	- ![[03a3758c52df27ff02b31b25e3e1bcef_MD5.png|300]]
 		- 출처: Lost in the Middle(https://arxiv.org/pdf/2307.03172)
 
 - **Compressor**
-	- ![|400](https://i.imgur.com/WWnYc8m.png)
+	- ![[429c45f51756e366cf5899e6d838e22d_MD5.png]]
 	- 관련성이 낮은 정보를 제거하여 LLM에 입력되는 컨텍스트의 품질을 향상
 	- Context Precision: 검색된 정보 중에서 실제로 관련 있는 정보의 비율
 	    - 할루시네이션 발생 가능성을 줄이는 데 도움
@@ -254,7 +254,7 @@ Document Loader(데이터로드) -> Answer(답변)
 - 이전 단계로 되돌아가기 어렵다.
 - 이전 과정의 결과물을 수정하기 어렵다.
 
-![|300](https://i.imgur.com/ItxU482.png)
+![[38265acfea4287da6fe88381df3a01c1_MD5.png|600]]
 
 ## Modular RAG
 
@@ -278,7 +278,7 @@ LEGO와 같은 재구성 용이하고 보다 유연한 흐름을 만들 수 있�
 	- **병렬** 구조: 여러 하위 모듈을 동시 실행 후 병합 가능
 	- **분기** 구조: 상황에 따른 분기 처리가 가능
 
-![](https://i.imgur.com/458wN0I.png)
+![[c8d4bfc48350b3291f164666795fab4b_MD5.png]]
 
 ### 독립적인 모듈 구성
 
@@ -311,7 +311,7 @@ return data
 
 ### 그래프 형식의 동적 흐름 구성
 
-![|500](https://i.imgur.com/ALuidL7.png)
+![[4800b802e62dcbc6aa18c0e902e9dac0_MD5.png]]
 
 - **평가자 -> “문서검색”에 대한 평가(Score)**
 	- 검색된 문서가 Query 답변을 위한 정보가 충분한지 판단
@@ -320,7 +320,7 @@ return data
 			- 검색된 문서의 정보가 불충분한 경우 -> 문서 검색을 위한 Query Rewrite
 			- 질문이 모호한 경우 -> 보다 명확한 질문 또는 Query Decomposition 을 통한 세부 질문으로 구성 후 검색
 
-![](https://i.imgur.com/YvIOvIf.png)
+![[b9bfe5cdf3444b5ad70942835b95d8e9_MD5.png]]
 
 - **Query -> 문서검색 -> 답변생성 -> 평가자 -> “답변”에 대한 평가(Score)**
 	- Query에 대한 답변이 충분한지 평가
@@ -329,7 +329,7 @@ return data
 			- 질문이 모호한 경우 -> Query Rewrite
 			- 정보가 불충분한 경우 -> 추가 검색 모듈(Web Search) 을 활용하여 통하여 문맥(context) 보강: Web Search
 
-![](https://i.imgur.com/qZba90g.png)
+![[afabf01eee5ac01e80ad6c752a43d9e1_MD5.png]]
 
 - **질문에 문서 검색이 필요한지 평가자1이 판단하여 Routing**
 	- **YES** -> 문서 검색 -> 답변 생성
@@ -364,7 +364,7 @@ https://github.com/langchain-ai/langgraph
 - **State(상태)**
 	- 현재의 상태값을 저장 및 전달하는 데 활용
 
-![|400](https://i.imgur.com/nFLMBZC.png)
+![[5fa12d270dd6975a156c8e865b93764e_MD5.png|500]]
 
 ### LangGraph 구현 예시
 
@@ -377,7 +377,7 @@ https://github.com/langchain-ai/langgraph
 	- 동적 메시지
 	- 각 노드의 결과물을 실시간 출력
 
-![|400](https://i.imgur.com/jSaOPQZ.png)
+![[0f7150e08f693396220ded2371364c73_MD5.png|600]]
 
 ## Modular RAG Patterns
 
@@ -388,7 +388,7 @@ https://github.com/langchain-ai/langgraph
 - 선형 흐름 패턴은 가장 단순하고 가장 일반적으로 사용되는 패턴
 - RAG 흐름 패턴은 주로 검색 **전처리 - 검색 - 검색 - 후처리** 및 **생성** 모듈로 이루어진 구성
 
-![|500](https://i.imgur.com/8VV9WWC.png)
+![[998432432aab6bb4e960ed76ac97f979_MD5.png]]
 
 - Pre-Retrieve
 	- QueryTransform
@@ -398,7 +398,7 @@ https://github.com/langchain-ai/langgraph
 - Rewrite ‒ Retrieve ‒ Read(RRR)
 	- RRR
 
-![|500](https://i.imgur.com/PnCsgwk.png)
+![[3fec808e9ffabd9aeaf74871d2c2611b_MD5.png]]
 
 ### Conditional Pattern - Routing
 
@@ -407,11 +407,11 @@ https://github.com/langchain-ai/langgraph
 	- 라우팅 모듈이 존재
 		- 예시) 입력된 Query 에 따른 검색기 선택
 
- ![|500](https://i.imgur.com/LzyBSqx.png)
+ ![[9e2cbef03cebe6b5e6922311d8014d88_MD5.png]]
 
 ### Branching Pattern
 
-![|500](https://i.imgur.com/XYAurck.png)
+![[558574499773a6e7ddd829133b9f8e48_MD5.png]]
 
 - **Pre-Retrieve**
 	- 검색소스/검색프로세스/프롬프트/모델 등이 달라짐
@@ -419,7 +419,7 @@ https://github.com/langchain-ai/langgraph
 		- 예시) Query3개 생성 ‒ 검색 ‒ 생성 ‒ 결과
 
 
-![|500](https://i.imgur.com/gTTWsSf.png)
+![[9aff21ca5c48008908ab23d2745ee2c9_MD5.png]]
 
 - **Generation**
 	- 모델이 동일한 문맥(Context)으로 각각의 답변을 도출한 다음 결과를 앙상블한다.
@@ -437,7 +437,7 @@ https://github.com/langchain-ai/langgraph
 2. 미리 정해진 최대 반복횟수(N)까지 프로세스를 반복
 3. 각 반복마다 이전 출력을 활용하여 더 관련성 높은 정보를 검색하고 답변을 개선
 
-![|500](https://i.imgur.com/oAqml3o.png)
+![[8bdb2051c83351a83b228bcf253a1241_MD5.png]]
 
 #### ITER-RETGEN
 
@@ -450,7 +450,7 @@ https://arxiv.org/pdf/2305.15294
 3. 새롭게 검색된 문서 기반으로 LLM 답변 생성
 4. N회 반복 후 최종 답변 도출
 
-![|500](https://i.imgur.com/GpLOdOa.png)
+![[dcf2bdebab76b36dca5d51d9bcb773e6_MD5.png]]
 
 #### Tree of Clarification
 - https://arxiv.org/pdf/2310.14696
@@ -460,7 +460,7 @@ https://arxiv.org/pdf/2305.15294
 3. 관련없는 노드 pruning/관련성 있는 정보만 남김
 4. 생성한 정보를 종합하여 Long Form 답변 생성
 
-![](https://i.imgur.com/3QTq22T.png)
+![[1119af4769e35662c9d1b5fcf1677428_MD5.png]]
 
 #### Adaptive Retrieval Pattern
 
@@ -473,13 +473,13 @@ Retrieval 전 단계에서 Retrieval 과정이 필요한지를 판단
 1. 검색이 필요하지 않은 경우 -> 즉각답변생성
 2. 검색이 필요한 경우 -> ITER-N 혹은 Recursive Retrieval Pattern 실행
 
-![|500](https://i.imgur.com/MfYHWKK.png)
+![[972c73833ded96c8857c4e6705577f7d_MD5.png|600]]
 
 ### Adaptive Pattern
 
 #### Forward-Looking Active Retrieval (FLARE)
 
-![|500](https://i.imgur.com/2BQxpyR.png)
+![[d259752655dfc60ba83f082c8221f417_MD5.png|600]]
 
 - 답변을 생성함에 있어 Retrieval 이 필요한지 판단
 - 답변에 대한 신뢰도(Confidence)를 측정하여 동적으로 Query 를 구성
@@ -499,7 +499,7 @@ Retrieval 전 단계에서 Retrieval 과정이 필요한지를 판단
 Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection을 응용한 버전이다.
 Self-RAG 논문에서는 reflection 토큰으로 retrieval 하는 시기를 판단한 다음 -> LLM as a Judge 로 대체한다.
 
-![](https://i.imgur.com/GFLXFfR.png)
+![[fa0acd243c3bf08a6ecfac7f9bd6a1df_MD5.png]]
 
 **동작 방식**
 
@@ -532,24 +532,24 @@ Self-RAG 논문에서는 reflection 토큰으로 retrieval 하는 시기를 판�
     - 이미지에 대한 Entity 추출
     - 이미지에 대한 요약문 생성
 
-![|400](https://i.imgur.com/WSXv9gy.png)
+![[50fa1e529b47cbb7e8bbe19b4c36ee7c_MD5.png|600]]
 
 ### Graph Parser Modular - Base 노드 & 상속
 
 1. `BaseNode` 상속
 2. `abstractmethod` 구현
 
-![](https://i.imgur.com/LLlcrCX.png)
+![[920a9906e435eba936729cd175b8d051_MD5.png]]
 
-![|400](https://i.imgur.com/UNE0071.png)
+![[df8e155eb4901b8968225284b607a01b_MD5.png|400]]
 
 **⬇️ 상속**
 
-![|500](https://i.imgur.com/k9vUBkN.png)
+![[e852e850443f137cfee834be6c0cfe94_MD5.png|500]]
 
 ### Graph Parser Modular - 기능별로 분리(재사용)
 
-![](https://i.imgur.com/Ve9f63C.png)
+![[4668c6defe14f44af5dc17914786f252_MD5.png]]
 
 ### Graph Parser Modular - 그래프 정의
 ![[Pasted image 20241004120445.png]]
@@ -560,7 +560,7 @@ Self-RAG 논문에서는 reflection 토큰으로 retrieval 하는 시기를 판�
 
 #### 텍스트 추출
 
-![](https://i.imgur.com/v768znN.png)
+![[7005a2f08bfc687d9f4b4dc33ddef3be_MD5.png]]
 
 #### 표(Table) 추출
 
