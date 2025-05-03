@@ -1,6 +1,10 @@
 ---
 created: 2025-05-03 08:14:51
-updated: 2025-05-03 11:29:13
+updated: 2025-05-03 11:33:30
+tags:
+  - AutoRAG
+  - RAG
+  - RAG평가
 ---
 > 출처: https://docs.auto-rag.com/data_creation/qa_creation/qa_creation.html
 
@@ -40,7 +44,6 @@ new_qa = qa.batch_apply(factoid_query_gen, llm=llm, lang="ko")
 사실 질문(factoid questions)이란 사실적인 정보를 요구하는 질문으로, 쉽게 검증할 수 있는 답변을 필요로 합니다. 일반적으로 예/아니오 답변이나 간단한 설명을 요구하며, 날짜, 이름, 장소 또는 사건과 같은 구체적인 세부사항에 대해 묻는 질문입니다.
 
 사실 질문의 예는 다음과 같습니다:
-
 	•	프랑스의 수도는 어디입니까?
 	•	전구를 발명한 사람은 누구입니까?
 	•	위키피디아는 언제 설립되었습니까?
