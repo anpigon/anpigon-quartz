@@ -13,7 +13,7 @@ updated: 2025-05-03 11:29:13
 1. `factoid_query_gen`
 2. `concept_completion_query_gen`
 3. `two_hop_incremental`
-4. `custom_query_gen` test_llama_gen_query.py
+4. `custom_query_gen` 
 
 ### 각 함수의 상세 설명
 
