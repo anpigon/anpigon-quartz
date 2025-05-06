@@ -1,8 +1,18 @@
 ---
-{"dg-publish":true,"permalink":"//rag/ko-nl-py-rag/","title":"KoNLPy의 Kkma 분석기와 Ollama를 사용하여 RAG 구축하기","tags":["KoNLPy","Kkma","Ollama","LangChain","한국어","자연어처리","FAISS","RAG"]}
+dg-publish: true
+title: KoNLPy의 Kkma 분석기와 Ollama를 사용하여 RAG 구축하기
+tags:
+  - KoNLPy
+  - Kkma
+  - Ollama
+  - LangChain
+  - 한국어
+  - 자연어처리
+  - FAISS
+  - RAG
+created: 2025-05-03 04:42:41
+updated: 2025-05-06 01:22:56
 ---
-
-
 ## 소개
 
 자연어 처리(NLP)에서 텍스트 분할은 중요한 전처리 단계입니다. 특히 한국어와 같은 특수한 언어 구조를 가진 경우, 적절한 도구의 선택이 중요합니다. 이 글에서는 한국어 텍스트 처리를 위한 KoNLPy의 Kkma 분석기와 LangChain을 활용하는 방법을 소개합니다.
