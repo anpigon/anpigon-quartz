@@ -4,6 +4,7 @@ tags:
   - Quartz
 created: 2024-01-30 02:09:56
 updated: 2024-09-26 12:07:57
+dg-publish: true
 ---
 
 Quartz 블로그에 댓글 기능을 추가하고 싶으신가요? [Giscus](https://giscus.app/ko)를 사용하면 Quartz 블로그에 쉽게 댓글 기능을 추가할 수 있습니다. Giscus는 GitHub Discussions를 기반으로 하는 무료 댓글 시스템으로, 별도의 DB 서버가 필요 없습니다.
