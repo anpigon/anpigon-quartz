@@ -3,6 +3,8 @@ created: 2024-02-08 03:39:34
 tags:
   - 옵시디언/테마
 title: 아름다운 뉴모픽 미니멀한 종이 같은 Border 테마 프리셋
+updated: 2025-05-06 12:05:11
+dg-publish: true
 ---
 출처: https://forum.obsidian.md/t/my-setup-beautiful-neumorphic-minimal-paperlike-border-theme-preset/75948
 
