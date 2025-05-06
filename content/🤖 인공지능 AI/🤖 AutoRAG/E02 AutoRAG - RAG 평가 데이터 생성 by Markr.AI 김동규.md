@@ -80,7 +80,7 @@ modules:
 
 #### [LamaParse](https://docs.llamaindex.ai/en/stable/llama_cloud/llama_parse)
 
-LamaParse는 하루에 1,000페이지가 무료로 제공됩니다. 유료 요금제에 가입하면 일주일에 7천 개의 무료 페이지가 제공되고 각 페이지당 $0.003이 부과됩니다. [Pricing 참고](https://docs.llamaindex.ai/en/stable/llama_cloud/llama_parse/#pricing)
+LamaParse는 하루에 1,000페이지가 무료로 제공됩니다. 유료 요금제에 가입하면 일주일에 7천 개의 무료 페이지가 제공되고 각 페이지당 \$0.003이 부과됩니다. [Pricing 참고](https://docs.llamaindex.ai/en/stable/llama_cloud/llama_parse/#pricing)
 
 [여기](https://cloud.llamaindex.ai/api-key)에서 LamaParse API Key를 발급합니다. 그리고 `.env`에 `LLAMA_CLOUD_API_KEY` 를 작성합니다.
 
