@@ -5,6 +5,7 @@ tags:
   - Evolving
   - RAG
   - RAG평가
+dg-publish: true
 ---
 
 LLM(대규모 언어 모델)을 활용하여 더 효과적인 질의(Query)를 생성하는 여러 'Evolving' 기법들을 설명합니다. 여기서 'Evolving'은 단순히 한 번 질의를 만드는 것을 넘어, 모델의 능력이나 조건 등을 '진화(Evolve)'시키면서 더 나은 질의를 생성하는 접근 방식을 의미합니다.
