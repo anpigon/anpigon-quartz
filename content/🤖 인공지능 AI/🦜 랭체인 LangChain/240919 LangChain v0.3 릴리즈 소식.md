@@ -1,8 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"//lang-chain/240919-lang-chain-v0-3/","title":"LangChain v0.3 릴리즈 소식","tags":["LangChain"]}
+dg-publish: true
+title: LangChain v0.3 릴리즈 소식
+tags:
+  - LangChain
+created: 2025-05-03 04:42:41
+updated: 2025-05-06 01:23:29
 ---
-
-
 > *출처: [https://python.langchain.com/docs/versions/v0_3](https://python.langchain.com/docs/versions/v0_3/)*
 
 _최종 업데이트: 2024년 9월 16일_
