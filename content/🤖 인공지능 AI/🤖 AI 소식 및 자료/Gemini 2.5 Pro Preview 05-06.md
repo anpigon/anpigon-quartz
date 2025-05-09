@@ -1,5 +1,5 @@
 ---
-title: Gemini 2.5 Pro Preview (I/O 에디션) 05-06
+title: Gemini 2.5 Pro Preview 05-06
 tags:
   - AI
   - Gemini
