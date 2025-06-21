@@ -81,10 +81,10 @@ def create_server():
         ids = []
         for r in RECORDS:
             hay = " ".join(
-                [\
-                    r.get("title", ""),\
-                    r.get("text", ""),\
-                    " ".join(r.get("metadata", {}).values()),\
+                [
+                    r.get("title", ""),
+                    r.get("text", ""),
+                    " ".join(r.get("metadata", {}).values()),
                 ]
             ).lower()
             if any(t in hay for t in toks):
