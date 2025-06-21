@@ -1,6 +1,31 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+// @font-face {
+//   font-family: 'Gowun Dodum';
+//   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// Gowun Dodum 폰트의 볼드 효과를 위한 text-shadow
+h1, h2, h3, h4, h5, h6,
+strong,
+b,
+th,
+dt {
+  text-shadow: 0.5px 0 0 currentColor;
+}
+
+// 특별히 font-weight가 설정된 요소들도 포함
+[style*="font-weight: bold"],
+[style*="font-weight: 700"],
+[style*="font-weight: 600"],
+.font-bold,
+.font-semibold {
+  text-shadow: 0.5px 0 0 currentColor;
+}
+
 li.section-li>.section {
   grid-template-columns: fit-content(9em) 3fr 1fr;
   display: grid;
