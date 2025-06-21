@@ -1,4 +1,6 @@
 ---
+title:
+aliases: 
 dg-publish: true
 cteated: 2025-06-21T15:57:00
 tags:
@@ -6,6 +8,8 @@ tags:
   - mcp
   - mcp-server
 related: "[[OpenAI]]"
+created: 2025-06-21 15:14:23
+modified: 2025-06-21 20:39:10
 ---
 
 > 원문: https://platform.openai.com/docs/mcp
