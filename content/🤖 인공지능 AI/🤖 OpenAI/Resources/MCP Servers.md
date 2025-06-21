@@ -1,3 +1,8 @@
+---
+dg-publish: true
+cteated: 2025-06-21T15:57:00
+---
+
 > 원문: https://platform.openai.com/docs/mcp
 
 > [!TLDR]
