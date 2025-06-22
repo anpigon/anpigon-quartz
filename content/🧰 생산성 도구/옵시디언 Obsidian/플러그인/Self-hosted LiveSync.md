@@ -5,7 +5,7 @@ tags:
 related: 
 dg-publish:
 created: 2025-06-22 12:22:19
-modified: 2025-06-22 12:29:40
+modified: 2025-06-22 13:38:40
 ---
 > 원문: https://github.com/vrtmrz/obsidian-livesync/blob/main/README.md
 
@@ -43,17 +43,18 @@ modified: 2025-06-22 12:29:40
 
 [![LiveSync Setup onto Fly.io SpeedRun 2024 using Google Colab](https://img.youtube.com/vi/7sa_I1832Xc/0.jpg)](https://www.youtube.com/watch?v=7sa_I1832Xc)
 
-1. [fly.io에 CouchDB 설치](docs/setup_flyio.md)
-2. [빠른 설정](docs/quick_setup.md)에서 플러그인 구성
+1. [fly.io에 CouchDB 설치](https://github.com/vrtmrz/obsidian-livesync/blob/main/docs/setup_flyio.md)
+2. [빠른 설정](https://github.com/vrtmrz/obsidian-livesync/blob/main/docs/quick_setup.md)에서 플러그인 구성
+
 ### ✔️ 수동 설정
 1. 서버 구성:
-   - [fly.io에 CouchDB 설치](docs/setup_flyio.md)
-   - [자체 CouchDB 설정](docs/setup_own_server.md)
-2. [빠른 설정](docs/quick_setup.md)에서 플러그인 구성
+   - [fly.io에 CouchDB 설치](https://github.com/vrtmrz/obsidian-livesync/blob/main/docs/setup_flyio.md)
+   - [자체 CouchDB 설정](https://github.com/vrtmrz/obsidian-livesync/blob/main/docs/setup_own_server.md)
+2. [빠른 설정](https://github.com/vrtmrz/obsidian-livesync/blob/main/docs/quick_setup.md)에서 플러그인 구성
 
 > [!TIP]
 > **무료 대안**:  
-> - Fly.io 유료화 → IBM Cloudant 사용 ([설치 가이드](docs/setup_cloudant.md))  
+> - Fly.io 유료화 → IBM Cloudant 사용 ([설치 가이드](https://github.com/vrtmrz/obsidian-livesync/blob/main/docs/setup_cloudant.md))  
 > - 서버 없는 **피어 투 피어 동기화**  
 > - 무료 Cloudflare R2(객체 스토리지)  
 > - **라즈베리 파이**에 CouchDB 구축 가능 (※ 서버 보안 주의)
@@ -76,13 +77,4 @@ modified: 2025-06-22 12:29:40
 > ※ 특히 파일 삭제/이름 변경 시
 
 ## 문제 해결
-문제 발생 시: [문제 해결 가이드](docs/troubleshooting.md) 참조
-
-## 감사 인사
-지속적인 발전을 위한 기여자들:  
-- [기여자](https://github.com/vrtmrz/obsidian-livesync/graphs/contributors)  
-- [GitHub 스폰서](https://github.com/sponsors/vrtmrz#sponsors)  
-- JetBrains 커뮤니티 프로그램 <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.png" height="24">  
-
-## 라이선스
-MIT 라이선스 적용
+문제 발생 시: [문제 해결 가이드](https://github.com/vrtmrz/obsidian-livesync/blob/main/docs/troubleshooting.md) 참조
