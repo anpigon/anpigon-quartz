@@ -5,7 +5,7 @@ tags:
 related:
 dg-publish:
 created: 2025-06-22 14:06:48
-modified: 2025-06-22 14:29:01
+modified: 2025-06-22 14:44:43
 ---
 > 원문: https://4rkal.com/posts/obsidianhugo/
 
@@ -102,11 +102,12 @@ rsync -av --delete --exclude='.*' \
 
 # 자동 배포
 cd ~/blog
+git pull origin
 if [[ `git status --porcelain` ]]; then
   git add .
   git commit -m "Content sync at $(date +'%Y-%m-%d %H:%M:%S')"
 fi
-git push
+git push origin
 ```
 **💡 시스템 카피 대신 rsync 채택 이유**: 5,000+ 노트 기준 동기화 시간 0.8초 → 0.1초로 개선  
 
