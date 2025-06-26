@@ -3,9 +3,8 @@ title:
 related:
 aliases: Gemini CLI
 created: 2025-06-26 10:39:34
-modified: 2025-06-26 11:41:25
+modified: 2025-06-26 11:50:31
 updated: 2025-06-26
-cssclasses: [zen-grid]
 ---
 
 > 원문: https://github.com/google-gemini/gemini-cli/blob/main/README.md
@@ -81,10 +80,10 @@ gemini
 
 ### 다음 단계
 
-- [소스 기여 또는 빌드](./CONTRIBUTING.md) 방법을 학습합니다.
-- 사용 가능한 [CLI 명령어](./docs/cli/commands.md)를 탐색합니다.
-- 문제 발생 시 [문제 해결 가이드](./docs/troubleshooting.md)를 참조합니다.
-- 포괄적인 문서는 [전체 문서](./docs/index.md)를 확인하십시오.
+- [소스 기여 또는 빌드](https://github.com/google-gemini/gemini-cli/blob/main/CONTRIBUTING.md) 방법을 학습합니다.
+- 사용 가능한 [CLI 명령어]([.](https://github.com/google-gemini/gemini-cli/blob/main)/docs/cli/commands.md)를 탐색합니다.
+- 문제 발생 시 [문제 해결 가이드]([.](https://github.com/google-gemini/gemini-cli/blob/main)/docs/troubleshooting.md)를 참조합니다.
+- 포괄적인 문서는 [전체 문서](https://github.com/google-gemini/gemini-cli/blob/main/docs/index.md)를 확인하십시오.
 - 추가 영감을 위해 [인기 태스크](#인기-태스크)를 살펴보세요.
 
 ### 문제 해결
