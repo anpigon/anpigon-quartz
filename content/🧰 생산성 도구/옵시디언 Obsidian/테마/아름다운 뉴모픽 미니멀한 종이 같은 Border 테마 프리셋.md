@@ -1,11 +1,14 @@
 ---
+related:
 created: 2024-02-08 03:39:34
-tags:
-  - 옵시디언/테마
+tags: [옵시디언/테마]
 title: 아름다운 뉴모픽 미니멀한 종이 같은 Border 테마 프리셋
 updated: 2025-05-06 12:05:11
 dg-publish: true
+aliases: 아름다운 뉴모픽 미니멀한 종이 같은 Border 테마 프리셋
+modified: 2025-06-26 11:32:55
 ---
+
 출처: https://forum.obsidian.md/t/my-setup-beautiful-neumorphic-minimal-paperlike-border-theme-preset/75948
 
 
@@ -34,6 +37,6 @@ dg-publish: true
 }
 ```
 
-- 버튼과 하이라이트에는 보라색을 사용(Style Settings에서 Color의 Accent color 설정을 통해 변경) 
+- 버튼과 하이라이트에는 보라색을 사용(Style Settings에서 Color의 Accent color 설정을 통해 변경)
 - 가독성을 높이기 위해 텍스트 폰트은 'Readex Pro', 인터페이스 폰트은 'Atkinson HyperLegible'을, Code 폰트은 'MonoLisa'를 사용.
 	- _지금 내 폰트 설정은 텍스트에 '마루부리', 인터페이스는 'Pretendard',  Code는 'D2Coding'이다._

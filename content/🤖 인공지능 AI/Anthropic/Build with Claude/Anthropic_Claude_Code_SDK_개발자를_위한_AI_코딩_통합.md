@@ -3,12 +3,11 @@ related:
 title: Claude Code SDK
 created: 2025-06-13 12:09:26
 updated: 2025-06-13 12:09:26
-tags:
+tags: []
 source_url: https://docs.anthropic.com/en/docs/claude-code/sdk
-MOC:
-  - "[[2025-06-13]]"
-aliases:
-modified: 2025-06-25 11:22:14
+MOC: ["[[2025-06-13]]"]
+aliases: Anthropic_Claude_Code_SDK_개발자를_위한_AI_코딩_통합
+modified: 2025-06-25 11:31:59
 ---
 
 > [!summary]
