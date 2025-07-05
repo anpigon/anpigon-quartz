@@ -1,6 +1,6 @@
 ---
 created: 2025-05-06 12:31:12
-updated: 2025-05-06 12:45:13
+modified: 2025-05-06 12:45:13
 title: "📈 RAG 성능 평가 지표: 순위 고려 지표(Rank-Aware) - mAP, mRR, nDCG"
 dg-publish: true
 ---

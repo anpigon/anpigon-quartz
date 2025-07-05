@@ -1,6 +1,6 @@
 ---
 created: 2025-05-06 12:03:11
-updated: 2025-05-06 12:03:30
+modified: 2025-05-06 12:03:30
 source: https://nextjs-ko.org/docs/app/building-your-application/routing/parallel-routes#modals
 dg-publish: true
 ---

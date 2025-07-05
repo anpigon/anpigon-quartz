@@ -1,6 +1,6 @@
 ---
 created: 2024-09-29 09:33:17
-updated: 2024-10-01 01:38:11
+modified: 2024-10-01 01:38:11
 title: Anthropic의 Contextual Retrieval 요약
 tags:
   - Anthropic

@@ -1,6 +1,6 @@
 ---
 created: 2024-10-02 11:04:12
-updated: 2024-10-03 09:34:40
+modified: 2024-10-03 09:34:40
 title: OpenAI 실시간 API 소개
 dg-publish: true
 tags:

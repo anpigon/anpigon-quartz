@@ -1,12 +1,14 @@
 ---
+aliases: []
+related: 
 created: 2024-10-02 03:07:17
-updated: 2024-10-04 08:04:55
 title: "Adaptive RAG: Llama3를 사용한 로컬 RAG"
 tags:
-  - rag
   - LangGraph
   - Llama3
+  - rag
 dg-publish: true
+modified: 2024-10-04 08:04:55
 ---
 
 > 원문: https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_adaptive_rag_local/

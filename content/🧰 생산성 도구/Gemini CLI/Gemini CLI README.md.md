@@ -1,10 +1,9 @@
 ---
-title:
-related:
+title: 
+related: 
 aliases: Gemini CLI
 created: 2025-06-26 10:39:34
-modified: 2025-06-26 11:51:47
-updated: 2025-06-26
+modified: 2025-06-26
 ---
 
 > 원문: https://github.com/google-gemini/gemini-cli/blob/main/README.md

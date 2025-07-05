@@ -3,7 +3,8 @@ title:
 aliases: []
 related:
 created: 2025-07-02 05:27:32
-modified: 2025-07-02 05:42:22
+modified: 2025-07-02 09:34:51
+tags: [튜토리얼, Python, R2R]
 ---
 
 > 원문: https://r2r-docs.sciphi.ai/self-hosting/quickstart

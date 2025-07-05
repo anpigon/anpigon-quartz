@@ -4,7 +4,7 @@ title: LangChain v0.3 릴리즈 소식
 tags:
   - langchain
 created: 2025-05-03 04:42:41
-updated: 2025-05-06 01:23:29
+modified: 2025-05-06 01:23:29
 ---
 > *출처: [https://python.langchain.com/docs/versions/v0_3](https://python.langchain.com/docs/versions/v0_3/)*
 

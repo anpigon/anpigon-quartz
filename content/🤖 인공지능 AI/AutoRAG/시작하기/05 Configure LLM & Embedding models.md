@@ -1,6 +1,6 @@
 ---
 created: 2024-10-04 03:49:15
-updated: 2024-10-04 03:49:48
+modified: 2024-10-04 03:49:48
 ---
 
 > 원문: https://docs.auto-rag.com/local_model.html

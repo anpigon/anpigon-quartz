@@ -1,6 +1,6 @@
 ---
 created: 2024-10-02 12:10:02
-updated: 2024-10-02 02:50:38
+modified: 2024-10-02 02:50:38
 title: Prompt Caching
 aliases:
   - Prompt Caching

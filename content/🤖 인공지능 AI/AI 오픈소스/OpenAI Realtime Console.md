@@ -1,6 +1,6 @@
 ---
 created: 2024-10-06 08:23:21
-updated: 2024-10-06 08:54:29
+modified: 2024-10-06 08:54:29
 title: OpenAI Realtime Console
 tags:
   - open-ai

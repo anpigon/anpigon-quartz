@@ -1,6 +1,6 @@
 ---
 created: 2024-10-04 08:52:16
-updated: 2024-10-04 08:58:53
+modified: 2024-10-04 08:58:53
 dg-publish: true
 title: Spring AI 시작하기
 ---

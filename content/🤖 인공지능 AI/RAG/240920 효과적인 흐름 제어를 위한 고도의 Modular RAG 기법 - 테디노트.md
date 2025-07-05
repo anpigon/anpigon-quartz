@@ -1,6 +1,6 @@
 ---
 created: 2024-09-21 09:41:48
-updated: 2024-10-05 07:55:57
+modified: 2024-10-05 07:55:57
 title: 효과적인 흐름 제어를 위한 고도의 Modular RAG 기법  - 테디노트
 tags:
   - rag

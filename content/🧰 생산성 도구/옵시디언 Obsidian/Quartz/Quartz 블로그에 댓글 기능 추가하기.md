@@ -3,7 +3,7 @@ title: "Quartz 블로그에 댓글 기능 추가하기: Giscus 사용 방법"
 tags:
   - quartz
 created: 2024-01-30 02:09:56
-updated: 2024-09-26 12:07:57
+modified: 2024-09-26 12:07:57
 dg-publish: true
 ---
 
