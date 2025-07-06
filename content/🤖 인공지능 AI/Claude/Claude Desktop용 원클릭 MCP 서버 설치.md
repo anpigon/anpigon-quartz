@@ -1,9 +1,10 @@
 ---
 title: "[번역] Claude Desktop 확장 기능: Claude Desktop용 원클릭 MCP 서버 설치"
 related:
-aliases: 번역_Claude Desktop용 원클릭 MCP 서버 설치
+aliases:
+  - Claude Desktop용 원클릭 MCP 서버 설치
 created: 2025-06-30 03:18:27
-modified: 2025-06-30 03:25:41
+modified: 2025-07-06 11:24:09
 ---
 
 > 원문: https://www.anthropic.com/engineering/desktop-extensions
