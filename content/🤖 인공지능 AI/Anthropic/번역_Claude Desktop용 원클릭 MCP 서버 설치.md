@@ -476,6 +476,6 @@ Anthropic 내부에서는 Claude가 최소한의 개입으로 확장 기능을 �
 
 내부적으로 Anthropic에서는 데스크톱 확장 기능을 사용하여 매우 실험적인 MCP 서버(재미있는 것도 있고 유용한 것도 있습니다)를 공유하고 있습니다. 한 팀은 저희 모델이 GameBoy에 직접 연결되었을 때 얼마나 멀리 갈 수 있는지 실험했습니다. 이는 저희의 ["Claude plays Pokémon" 연구](https://www.anthropic.com/news/visible-extended-thinking)와 유사합니다. 저희는 데스크톱 확장 기능을 사용하여 인기 있는 [PyBoy](https://github.com/Baekalfen/PyBoy) GameBoy 에뮬레이터를 열고 Claude가 제어할 수 있도록 하는 단일 확장 기능을 패키징했습니다. 모델의 기능을 사용자가 이미 로컬 기기에 가지고 있는 도구, 데이터 및 애플리케이션에 연결할 수 있는 수많은 기회가 있다고 믿습니다.
 
-![PyBoy MCP와 슈퍼 마리오 랜드 시작 화면을 보여주는 데스크톱](0%20-%20Inbox/ReadItLater/assets/Claude%20Desktop%20Extensions%20One-click%20MCP%20server%20installation%20for%20Claude%20Desktop-thG30d3vCm.webp)
+![PyBoy MCP와 슈퍼 마리오 랜드 시작 화면을 보여주는 데스크톱](Claude%20Desktop%20Extensions%20One-click%20MCP%20server%20installation%20for%20Claude%20Desktop-thG30d3vCm.webp)
 
 여러분께서 무엇을 구축할지 기대됩니다. 수천 개의 MCP 서버를 탄생시킨 동일한 창의성이 이제 단 한 번의 클릭으로 수백만 명의 사용자에게 도달할 수 있습니다. MCP 서버를 공유할 준비가 되셨습니까? [검토를 위해 확장 기능을 제출하십시오](https://forms.gle/tyiAZvch1kDADKoP9).
