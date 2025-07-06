@@ -10,7 +10,7 @@ clippings: "[[2025-07-06]]"
 description: Claude Code의 동작을 사용자 정의하고 확장하려면 쉘 명령어를 등록하세요.
 ---
 
-> 원문: https://docs.anthropic.com/en/docs/claude-code/hooks#stop%2Fsubagentstop-decision-control
+> 원문: https://docs.anthropic.com/en/docs/claude-code/hooks
 
 > [!summary]
 > Claude Code hook은 Claude Code의 생명 주기 내 특정 시점에 실행되는 사용자 정의 셸 명령어입니다. 이를 통해 알림 사용자 정의, 자동 포맷, 로깅, 피드백 제공, 사용자 정의 권한 설정 등 Claude Code의 동작을 결정적으로 제어할 수 있습니다. hook은 설정 파일에서 구성되며, 다양한 이벤트(PreToolUse, PostToolUse, Notification, Stop, SubagentStop)에 따라 실행됩니다. hook은 JSON 데이터를 입력으로 받아, 종료 코드 또는 JSON 출력을 통해 Claude Code에 피드백을 제공할 수 있습니다. 보안상의 이유로 hook 사용 시 주의가 필요하며, 입력 유효성 검사, 셸 변수 인용, 경로 탐색 방지 등 보안 모범 사례를 준수해야 합니다.
