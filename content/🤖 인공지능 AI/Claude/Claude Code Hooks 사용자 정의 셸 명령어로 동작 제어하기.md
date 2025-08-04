@@ -3,8 +3,8 @@ aliases: []
 related:
 title: "[번역] Claude Code Hooks: 사용자 정의 셸 명령어로 동작 제어하기"
 created: 2025-07-06 06:28:52
-modified: 2025-07-06 11:24:17
-tags: [자동화, ClaudeCode]
+modified: 2025-07-06 11:39:23
+tags: [자동화, claude-code]
 source_url: https://docs.anthropic.com/en/docs/claude-code/hooks
 clippings: "[[2025-07-06]]"
 description: Claude Code의 동작을 사용자 정의하고 확장하려면 쉘 명령어를 등록하세요.

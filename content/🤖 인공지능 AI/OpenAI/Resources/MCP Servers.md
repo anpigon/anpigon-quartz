@@ -1,14 +1,11 @@
 ---
 title: 
-aliases: 
+aliases: []
 dg-publish: true
-tags:
-  - open-ai
-  - mcp
-  - mcp-server
+tags: [mcp, mcp-server, open-ai]
 related: "[[OpenAI]]"
-created: 2025-06-21T15:57:00
-modified: 2025-06-21 20:39:10
+created: 2025-06-21 03:57:00
+modified: 2025-07-12 12:18:11
 ---
 
 > 원문: https://platform.openai.com/docs/mcp
@@ -25,48 +22,53 @@ modified: 2025-06-21 20:39:10
 회사 지식을 활용하여 ChatGPT를 맞춤화하려면 사용자 지정 원격 MCP 서버를 구축하고 연결하세요.
 
 [모델 컨텍스트 프로토콜](https://modelcontextprotocol.io/introduction)(MCP)은 AI 모델을 추가 도구 및 지식으로 확장하는 데 업계 표준이 되고 있는 개방형 프로토콜입니다. 모든 데이터 소스 위에 MCP 서버를 구축할 수 있습니다. 이 가이드에서는 ChatGPT에서 사용할 기본적인 원격 MCP 서버를 설정하는 방법을 다룹니다.
+
 ## 작동 방식
 
 독점 시스템을 포함한 모든 도구를 ChatGPT의 심층 연구 기능에 연결하여, 직원들이 ChatGPT에서 회사 지식에 접근할 수 있도록 합니다. 일반적인 절차는 다음과 같습니다.
 
-1.  `검색(search)` 도구와 `가져오기(fetch)` 도구를 노출하여 심층 연구에 최적화된 MCP 서버를 구축합니다.
-2.  ChatGPT에서 사용자 지정 심층 연구 커넥터를 생성합니다.
-3.  ChatGPT가 서비스와 효과적으로 상호 작용할 수 있도록 커넥터 설정에 자세한 사용 지침을 포함합니다.
-4.  ChatGPT에서 직접 커넥터를 테스트하고 개선합니다.
-5.  선택적으로 (ChatGPT Enterprise, Edu 또는 Team 관리자의 경우), 커넥터를 전체 작업 공간에 게시합니다. 그러면 심층 연구(deep research)에서 추가적인 지식 소스로 나타납니다.
+1. `검색(search)` 도구와 `가져오기(fetch)` 도구를 노출하여 심층 연구에 최적화된 MCP 서버를 구축합니다.
+2. ChatGPT에서 사용자 지정 심층 연구 커넥터를 생성합니다.
+3. ChatGPT가 서비스와 효과적으로 상호 작용할 수 있도록 커넥터 설정에 자세한 사용 지침을 포함합니다.
+4. ChatGPT에서 직접 커넥터를 테스트하고 개선합니다.
+5. 선택적으로 (ChatGPT Enterprise, Edu 또는 Team 관리자의 경우), 커넥터를 전체 작업 공간에 게시합니다. 그러면 심층 연구(deep research)에서 추가적인 지식 소스로 나타납니다.
 
 > [!info] **애플리케이션에서 MCP 원격 서버에 접근하고 싶으신가요?**
 > 지금 읽고 계신 가이드는 ChatGPT에 연결할 원격 MCP 서버를 생성하는 방법에 대한 것입니다. LLM 애플리케이션에서 도구 네트워크에 API 접근을 하려면, [모델이 MCP 원격 서버를 사용하도록 설정하는 방법](https://platform.openai.com/docs/guides/tools-remote-mcp)을 알아보세요.
+
 ## MCP 생태계
 
 MCP 생태계는 아직 초기 단계입니다. 현재 인기 있는 원격 MCP 서버로는 [Cloudflare](https://developers.cloudflare.com/agents/guides/remote-mcp-server/), [HubSpot](https://developers.hubspot.com/mcp), [Intercom](https://developers.intercom.com/docs/guides/mcp), [PayPal](https://developer.paypal.com/tools/mcp-server/), [Pipedream](https://pipedream.com/docs/connect/mcp/openai/), [Plaid](https://plaid.com/docs/mcp/), [Shopify](https://shopify.dev/docs/apps/build/storefront-mcp), [Stripe](https://docs.stripe.com/mcp), [Square](https://developer.squareup.com/docs/mcp), [Twilio](https://github.com/twilio-labs/function-templates/tree/main/mcp-server), [Zapier](https://zapier.com/mcp) 등이 있습니다. 앞으로 더 많은 서버와 이러한 서버를 쉽게 찾을 수 있도록 돕는 레지스트리들이 출시될 것으로 예상됩니다. MCP 프로토콜 자체도 초기 단계이며, 프로토콜이 발전함에 따라 MCP 도구에 더 많은 업데이트를 추가할 예정입니다.
 
 사용자 지정 원격 MCP 서버를 사용하기로 결정하기 전에 [위험 및 안전 정보](https://platform.openai.com/docs/mcp#risks-and-safety)를 이해하는 것이 좋습니다.
+
 ## MCP 서버 구축
 
 아직 MCP에 익숙하지 않다면, [MCP 소개](https://modelcontextprotocol.io/introduction)를 읽어보세요. 선호하는 도구 및 라이브러리에서 간단한 서버 지침을 찾을 수 있습니다. 다음은 몇 가지 자료입니다:
--   [Cloudflare](https://developers.cloudflare.com/agents/guides/remote-mcp-server/)
--   [Azure Functions](https://devblogs.microsoft.com/dotnet/build-mcp-remote-servers-with-azure-functions/)
--   [Stainless](https://www.stainless.com/blog/generate-mcp-servers-from-openapi-specs)
+- [Cloudflare](https://developers.cloudflare.com/agents/guides/remote-mcp-server/)
+- [Azure Functions](https://devblogs.microsoft.com/dotnet/build-mcp-remote-servers-with-azure-functions/)
+- [Stainless](https://www.stainless.com/blog/generate-mcp-servers-from-openapi-specs)
+
 ### 기본적인 원격 서버 설정
 
 시작점으로, GitHub의 심층 연구 MCP 서버 [샘플 앱](https://github.com/kwhinnery-openai/sample-deep-research-mcp)을 사용하세요. 이 최소한의 예제는 컵케이크 주문을 검색하고 가져오는 원격 MCP 서버를 생성하고 실행하는 방법을 보여줍니다.
-1.  [레포지토리](https://github.com/kwhinnery-openai/sample-deep-research-mcp)를 클론하거나 파일을 기존 레포지토리에 복사합니다.
-2.  서버를 설정합니다. Python에서는 다음 명령어를 실행할 수 있습니다:
+1. [레포지토리](https://github.com/kwhinnery-openai/sample-deep-research-mcp)를 클론하거나 파일을 기존 레포지토리에 복사합니다.
+2. 서버를 설정합니다. Python에서는 다음 명령어를 실행할 수 있습니다:
     ```shell
     python -m venv env
     source env/bin/activate
     pip install -r requirements.txt
     ```
-3.  서버를 실행합니다. SSE 전송을 사용하여 `http://127.0.0.1:8000`에서 시작됩니다.
+3. 서버를 실행합니다. SSE 전송을 사용하여 `http://127.0.0.1:8000`에서 시작됩니다.
     ```shell
     python sample_mcp.py
     ```
-4.  필요한 사용자 지정 사항으로 샘플 파일을 업데이트합니다:
-    -   `sample_mcp.py`는 메인 서버 코드입니다.
-    -   `records.json`은 컵케이크 주문 데이터입니다 (동일한 디렉토리에 있어야 합니다).
+4. 필요한 사용자 지정 사항으로 샘플 파일을 업데이트합니다:
+    - `sample_mcp.py`는 메인 서버 코드입니다.
+    - `records.json`은 컵케이크 주문 데이터입니다 (동일한 디렉토리에 있어야 합니다).
 
 MCP 서버는 여러 도구를 가질 수 있습니다. 현재 ChatGPT에서 MCP 서버에 연결하는 것은 사용자가 심층 연구를 수행할 수 있도록 하는 것으로 제한됩니다. 이는 귀하의 MCP 원격 서버가 검색 및 문서 검색 도구를 갖춘 검색 엔진과 유사해야 함을 의미합니다.
+
 ### 검색 설정
 
 검색 도구를 정의합니다. 간단한 컵케이크 주문 예제에서는 코드가 다음과 같습니다:
@@ -205,23 +207,28 @@ return mcp
 
 사용자 지정 원격 MCP 서버를 구축하는 사람으로서, 권한 부여와 인증은 데이터를 보호하는 데 도움이 됩니다. OAuth와 [동적 클라이언트 등록](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization#2-4-dynamic-client-registration)을 사용하는 것을 권장합니다. 프로토콜의 인증에 대해 더 자세히 알아보려면 [MCP 사용자 가이드](https://modelcontextprotocol.io/docs/concepts/transports#authentication-and-authorization)를 읽거나 [권한 부여 사양](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization)을 참조하십시오.
 ChatGPT에서 사용자 지정 원격 MCP 서버를 연결하면, 작업 공간의 사용자는 귀하의 애플리케이션으로 OAuth 흐름을 받게 됩니다.
+
 ### 전송 및 터널링
 
 원격 MCP 서버는 인터넷 주소 지정이 가능해야 합니다. 따라서 서버가 인트라넷에 호스팅되어 있다면 어떤 형태의 터널링이 필요합니다. [ngrok](https://ngrok.com/)은 이를 위한 편리한 도구 중 하나이지만, Cloudflare와 같은 다른 터널링 솔루션도 있습니다.
+
 ### 테스트 및 디버깅
 
 MCP 서버를 테스트하려면, API [플레이그라운드](https://platform.openai.com/playground)을 사용하여 서버에 접근 가능한지, 도구 목록이 예상대로 해결되는지 확인하세요. 플레이그라운드를 사용하여 심층 연구를 실행하기 전에 서버가 결과를 반환하는 능력을 부분적으로 확인할 수 있습니다. 심층 연구는 반복적인 개선 (예: 검색 도구 설명을 개선하는 동안)에 더 시간이 오래 걸립니다.
 
 최상의 결과를 위해, 플레이그라운드에서 OpenAI o3 또는 o3 mini로 테스트하는 것을 권장합니다.
+
 ## 원격 MCP 서버 연결
-1.  [ChatGPT 설정](https://chatgpt.com/#settings)에서 원격 MCP 서버를 직접 가져옵니다.
-2.  **커넥터** 탭에서 서버를 연결합니다. 이제 컴포저 > 심층 연구 도구에서 볼 수 있습니다. 서버를 소스로 추가해야 할 수도 있습니다.
-3.  몇 가지 프롬프트를 실행하여 서버를 테스트합니다.
+1. [ChatGPT 설정](https://chatgpt.com/#settings)에서 원격 MCP 서버를 직접 가져옵니다.
+2. **커넥터** 탭에서 서버를 연결합니다. 이제 컴포저 > 심층 연구 도구에서 볼 수 있습니다. 서버를 소스로 추가해야 할 수도 있습니다.
+3. 몇 가지 프롬프트를 실행하여 서버를 테스트합니다.
+
 ## 위험 및 안전
 
 사용자 지정 MCP 서버를 사용하면 ==ChatGPT 작업 공간을 외부 애플리케이션에 연결==할 수 있으며, 이를 통해 ChatGPT는 이러한 애플리케이션에서 데이터에 접근하고, 데이터를 송수신하며, 조치를 취할 수 있습니다. 사용자 지정 MCP 서버는 ==OpenAI에서 개발하거나 검증한 것이 아니==며, 자체 이용 약관이 적용되는 타사 서비스입니다.
 
 악의적인 MCP 서버를 발견하면 [security@openai.com](mailto:security@openai.com)으로 신고해 주십시오.
+
 ### 신뢰할 수 있는 서버 연결
 
 ChatGPT 작업 공간에 추가하는 사용자 지정 MCP 서버에 주의하십시오. ==기반 애플리케이션을 알고 신뢰하지 않는 한 사용자 지정 MCP 서버에 연결하지 않는 것을 권장합니다==. ==악의적인 MCP 서버에는 ChatGPT가 예기치 않게 동작하도록 설계된 숨겨진 지침(프롬프트 인젝션)==이 포함될 수 있습니다. ==어떤 MCP 서버에든 연결하기 전에 공유될 데이터 유형을 신중하고 철저하게 검토하십시오==.
@@ -231,6 +238,7 @@ ChatGPT 작업 공간에 추가하는 사용자 지정 MCP 서버에 주의하�
 ==접근을 허용하는 데이터에 주의하십시오==. ==도구의 JSON에 민감한 정보를 넣지 마십시오==. 또한 ==원격 MCP 서버에 접근하는 ChatGPT 사용자로부터 민감한 정보를 저장하지 마십시오==.
 
 MCP 서버를 구축하는 사람으로서, 도구 정의에 악의적인 내용을 넣지 마십시오. 현재로서는 검색 및 문서 검색만 지원합니다.
+
 ## 다른 사용자를 위한 MCP 서버 배포
 
 대기업은 ChatGPT의 심층 연구 기능을 통해 다른 사람들이 회사 지식을 사용할 수 있도록 MCP 서버를 배포하기를 원할 수 있습니다. MCP 서버를 배포하려면 관리자와 협력하십시오.
